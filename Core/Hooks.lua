@@ -28,6 +28,8 @@ tinsert(hooks, {
          HistoryFrame.wowheadBaseUrl = "https://tbc.wowhead.com/item="
       elseif WOW_PROJECT_CLASSIC == WOW_PROJECT_ID then
          HistoryFrame.wowheadBaseUrl = "https://classic.wowhead.com/item="
+      elseif WOW_PROJECT_WRATH_CLASSIC == WOW_PROJECT_ID then
+         HistoryFrame.wowheadBaseUrl = "https://wowhead.com/wotlk/item="
       end
    end
 })
